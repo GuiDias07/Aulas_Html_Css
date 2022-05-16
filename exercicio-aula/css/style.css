@@ -1,0 +1,14 @@
+* { 
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+header { 
+    border-bottom: 20px solid black;
+    margin: 30px black;
+    padding: 20px; 
+    color: #fff;
+    background-color: red;
+}

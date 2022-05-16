@@ -1,0 +1,14 @@
+* { 
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body{ 
+    width: 800px;
+    height: 600px;
+    border: 2px solid black;
+    background-image: url(minion.jpg);
+    background-size: 25%;
+    background-repeat: repeat-y;
+}

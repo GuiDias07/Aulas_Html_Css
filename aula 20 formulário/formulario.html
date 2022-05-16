@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin:0;
+        width: 80%;
+        height: auto;
+        box-sizing: border-box;
+        padding: 0;
+
+    }
+
+    section {
+        border: 2px solid black;
+    }
+    fieldset{
+        padding: 2px;
+        border: none;
+    }
+
+#formulario {
+    margin: 30px auto;
+    padding: 5px;
+    
+}
+
+form{
+    width: 100%;
+    height: auto;
+    padding: 2px;
+}
+
+label {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 2px;
+}
+
+
+</style>
+
+
+<body>
+    <section id="formulario">
+    <form>
+        <fieldset>
+            <legend> Formulário</legend>
+                <label for="NomeUsu">Nome</label>
+                    <input type="text" required placeholder="digite seu nome" class=".txt" id="NomeUsu" value="">
+                <label for="SobreNomeUsu">Sobrenome</label>
+                    <input type="text" class=".txt" id="SobreNomeUsu" value="">
+                <label for="DataNasc">Data de nascimento</label>
+                    <input type="text" class=".txt" id="DataNasc" value="">            
+        </fieldset>
+        <fieldset>
+            <legend> Sexo </legend>
+                <input type="radio" name="genero" value="m">
+                    <label for="genero">masculino</label>
+                <input type="radio" name="genero" value="f">
+                    <label for="genero">feminino</label>
+                <input type="radio" name="genero" value="nb">
+                    <label for="genero">não binário</label>
+           
+
+        </fieldset>
+        <fieldset>
+            <select>
+                <option value="">selecione o método de transação</option>
+                    <option value="pix">Pix </option>
+                <label for="pix"></label>
+                    <option value="TED">Ted </option>
+                <label for="Ted"></label>
+                    <option value="Doc">Doc </option>
+                <label for="Doc"></label>
+        </select>
+        </fieldset>
+            <label for="edicao">escreva uma mensagem para o favorecido.</label>
+                <textarea id="edicao" cols="80" rows="20"></textarea>
+                
+            
+                <input type="submit" name="enviarDados" value="ENVIAR">
+        <fieldset>
+    
+    </form>
+</section>
+</body>
+</html>

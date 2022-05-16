@@ -1,0 +1,48 @@
+* {
+    margin:0;
+    border:0;
+    padding:0;
+}
+
+:root {
+    --cor_de_fonte: red;
+    --cor_background_padrao: Aqua;
+
+}
+#header-top{
+    width: 100%;
+    height: 80px;
+    background-color: aqua;
+}
+
+
+
+h2{
+    width: 80%;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 40px;
+    border-bottom: 1px solid black;
+}
+
+p{
+    width: 80%;
+    line-height: 32px;
+    margin: auto; 
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: grey;
+    font-size: x-large;
+    margin: auto;
+    padding-left: 40%;
+    border: 4px solid black;
+}
+
+main > #receitas {
+    background-color: var(--cor_background_padrao);
+    width: 100%;
+    height: 600px;
+}
